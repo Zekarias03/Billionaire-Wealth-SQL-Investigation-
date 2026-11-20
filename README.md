@@ -18,8 +18,8 @@ industry	Industry the wealth is mainly attributed to
 
 The dataset has only one table, so two small lookup tables were created in SQL to practise JOINs:
 
-country_region: links each of the 35 countries to a continent (Russia and Cyprus are grouped under Europe).
-continent_list: the seven continents, including Antarctica, which has no billionaires.
+- country_region: links each of the 35 countries to a continent (Russia and Cyprus are grouped under Europe).
+- continent_list: the seven continents, including Antarctica, which has no billionaires.
 ## Problem Statement
 
 The goal of this project is to understand wealth distribution among the 200 richest people in the world. The task is to analyse the dataset and answer important business questions using SQL.
@@ -30,23 +30,23 @@ Dashboard_Image.png
 
 The dashboard shows six views of the data:
 
-Top 10 richest: net worth of the ten richest people ($B)
-Billionaires by country: the five countries with the most billionaires
-Total wealth by continent: result of the SQL JOIN between the dataset and country_region ($B)
-Total wealth by industry: the six industries with the most wealth ($B)
-Billionaires by age group: how many billionaires fall in each age group
-Billionaires by wealth tier: result of a CASE WHEN query
+- Top 10 richest: net worth of the ten richest people ($B)
+- Billionaires by country: the five countries with the most billionaires
+- Total wealth by continent: result of the SQL JOIN between the dataset and country_region ($B)
+- Total wealth by industry: the six industries with the most wealth ($B)
+- Billionaires by age group: how many billionaires fall in each age group
+- Billionaires by wealth tier: result of a CASE WHEN query
 
 The footer shows the key totals: total wealth $6,368.5B, average $31.84B and median $19.25B.
 
 ## SQL Skills Used
-Filtering and sorting: WHERE, ORDER BY, LIMIT
-Aggregation: COUNT, SUM, AVG, ROUND, GROUP BY, HAVING
-Subqueries and derived tables
-CASE WHEN for age groups and wealth tiers
-Window functions: ROW_NUMBER(), LEAD()
-Joins: INNER JOIN, LEFT JOIN, RIGHT JOIN
-CREATE TABLE and INSERT for the lookup tables
+- Filtering and sorting: WHERE, ORDER BY, LIMIT
+- Aggregation: COUNT, SUM, AVG, ROUND, GROUP BY, HAVING
+- Subqueries and derived tables
+- CASE WHEN for age groups and wealth tiers
+- Window functions: ROW_NUMBER(), LEAD()
+- Joins: INNER JOIN, LEFT JOIN, RIGHT JOIN
+- CREATE TABLE and INSERT for the lookup tables
 ## Insights
 - Total wealth: the 200 billionaires hold $6,368.5 billion in total. The average net worth is $31.84 billion, but the median is only $19.25 billion, because a few very large fortunes pull the average up.
 - Richest people: Bernard Arnault (France) is first with $233 billion, followed by Elon Musk ($195 billion) and Jeff Bezos ($194 billion). Mark Zuckerberg is fourth with $177 billion.
@@ -70,10 +70,10 @@ CREATE TABLE and INSERT for the lookup tables
 Wealth among the world's 200 richest people is highly concentrated. The United States, North America and the technology industry dominate, the top 10 hold almost a quarter of all wealth, and more than half of the billionaires are 70 or older. The main takeaway is that averages alone give a misleading picture, so medians and shares of the total should be reported alongside them.
 
 ## Files
-billionaire_queries.sql: all SQL questions (Q1 to Q31) with queries
-Top_200_Richest_Person_in_the_World.xlsx: the dataset
-Dashboard_Image.png: dashboard image of the key results
-README.md: this file
+- billionaire_queries.sql: all SQL questions (Q1 to Q31) with queries
+- Top_200_Richest_Person_in_the_World.xlsx: the dataset
+- Dashboard_Image.png: dashboard image of the key results
+- README.md: this file
 ## Tools
 
 SQL (SQLite), Excel, GitHub
