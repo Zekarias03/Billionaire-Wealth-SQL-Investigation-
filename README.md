@@ -26,7 +26,7 @@ The goal of this project is to understand wealth distribution among the 200 rich
 
 ## Visualization
 
-![](Dashboard_Image__2_.png)
+![](Dashboard_Image  2.png)
 
 The dashboard shows six views of the data:
 
