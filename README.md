@@ -7,14 +7,15 @@ This SQL project analyses wealth distribution among the world's 200 richest peop
 
 The dataset (Top_200_Richest_Person_in_the_World.xlsx) lists the 200 richest people in the world according to Forbes. It has 200 rows and 7 columns. Each row is one billionaire, although 43 entries are family fortunes (for example, "Bernard Arnault & family"), so their age and net worth may not describe a single person.
 
-### Column	Description
-serial_number	Sequential number of the billionaire in the dataset
-rank	Global rank by net worth (Forbes)
-name	Name of the billionaire
-age	Age of the billionaire
-country	Country the billionaire belongs to
-networth_billion	Net worth in billion US dollars
-industry	Industry the wealth is mainly attributed to
+| Column | Description |
+|---|---|
+| serial_number | Sequential number of the billionaire in the dataset |
+| rank | Global rank by net worth (Forbes) |
+| name | Name of the billionaire |
+| age | Age of the billionaire |
+| country | Country the billionaire belongs to |
+| networth_billion | Net worth in billion US dollars |
+| industry | Industry the wealth is mainly attributed to |
 
 The dataset has only one table, so two small lookup tables were created in SQL to practise JOINs:
 
